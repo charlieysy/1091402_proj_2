@@ -1,0 +1,21 @@
+input: TTTTNNTNTNTNTNTNT
+
+output:
+Predictor state                      outcome   prediction    miss?
+000 SN0 SN0 SN0 SN0 SN0 SN0 SN0 SN0     T          N         miss
+001 WN1 SN0 SN0 SN0 SN0 SN0 SN0 SN0     T          N         miss
+011 WN1 WN1 SN0 SN0 SN0 SN0 SN0 SN0     T          N         miss
+111 WN1 WN1 SN0 WN1 SN0 SN0 SN0 SN0     T          N         miss
+111 WN1 WN1 SN0 WN1 SN0 SN0 SN0 WN1     N          N       not miss
+110 WN1 WN1 SN0 WN1 SN0 SN0 SN0 SN0     N          N       not miss
+100 WN1 WN1 SN0 WN1 SN0 SN0 SN0 SN0     T          N         miss
+001 WN1 WN1 SN0 WN1 WN1 SN0 SN0 SN0     N          N       not miss
+010 WN1 SN0 SN0 WN1 WN1 SN0 SN0 SN0     T          N         miss
+101 WN1 SN0 WN1 WN1 WN1 SN0 SN0 SN0     N          N       not miss
+010 WN1 SN0 WN1 WN1 WN1 SN0 SN0 SN0     T          N         miss
+101 WN1 SN0 WN2 WN1 WN1 SN0 SN0 SN0     N          N       not miss
+010 WN1 SN0 WN2 WN1 WN1 SN0 SN0 SN0     T          N         miss
+101 WN1 SN0 WN3 WN1 WN1 SN0 SN0 SN0     N          N       not miss
+010 WN1 SN0 WN3 WN1 WN1 SN0 SN0 SN0     T          N         miss
+101 WN1 SN0 WT3 WN1 WN1 SN0 SN0 SN0     N          N       not miss
+010 WN1 SN0 WT3 WN1 WN1 SN0 SN0 SN0     T          T       not miss

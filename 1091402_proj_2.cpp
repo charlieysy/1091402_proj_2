@@ -9,7 +9,7 @@ int counter[8] = {};
 int main() {
 	string pattern;
 	cin >> pattern;		// TTTTNNTNTNTNTNTNT
-	cout<<"Predictor state" << setw(29) << "outcome" << setw(13) << "prediction" << setw(9) << "miss?" << endl;
+	cout<<"\nPredictor state" << setw(29) << "outcome" << setw(13) << "prediction" << setw(9) << "miss?" << endl;
 
 	for (int i = 0;i < pattern.size();i++) {
 
@@ -57,5 +57,4 @@ int main() {
 		}
 		cout << endl;
 	}
-
 }

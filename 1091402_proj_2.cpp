@@ -2,7 +2,7 @@
 #include <iomanip>
 using namespace std;
 
-string StateDiagram[8] = { "SN0","WN1","WN2","WN3","WT3","WT2","WT1","ST" };
+string StateDiagram[8] = { "SN ","WN1","WN2","WN3","WT3","WT2","WT1","ST " };
 string history = "000";
 int counter[8] = {};
 
